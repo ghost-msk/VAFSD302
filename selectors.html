@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors | CSS</title>
+    <style>
+        /* * {
+            color: #999;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+         /* simple selector */
+        /* div{ background-color: aqua;}
+        p{ color: brown;}
+        .para{ color: blueviolet;}
+        #text{ color: blanchedalmond;} */
+        /* combinators */
+        /* div p{ color: aqua;} */
+        /* div>p{ color: brown;} */
+        /* div+p{color: blue;} */
+        div~p{ color: blueviolet;}
+        
+
+        </style>
+</head>
+
+<body>
+    <!-- types of Selectors
+
+    Universal -  *
+    Simple - element, attribute, class and id
+    Combinators - Space, Child, General Sibling and Adjuscent Sibling
+    Pseudo Class - change state of the element
+    Pseduo Elements - modify the style of the element -->
+    <h1>Selectors in CSS</h1>
+    <div>
+        <p class="para">Hello World</p>
+        <p id="text">HI</p>
+        <p>
+            HEy
+        </p>
+        <main>
+            <p class="para">
+                Hello
+            </p>
+        </main>
+    </div>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, reiciendis! Natus veniam, rem omnis id quos quo tenetur, veritatis maxime placeat a tempore nesciunt. Vero aut iure accusantium iusto tempore.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit provident eos eum fugit corrupti nobis. Sapiente dicta commodi nam. Atque quisquam ipsam veritatis iusto at repellat in velit magnam! Voluptatem.</p>
+</body>
+
+</html>
